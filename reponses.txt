@@ -1,0 +1,5 @@
+a - la difference entre git pull et git fetch
+git fetch permet de telecharger un contenu a distant et ne changera pas le contenu l'etat du depot local tandisque git pull permet de telecharger le contenu a distant et tentera de changer l'etat du depot localpour qu'il correspond à ce  contenu . 
+b-pour annuler les modificationslocales non validées dans git on utilise la commande git reset
+c-pour supprimer une branche distance dans git on utilise git push --delete branche
+d-pour voir l'historique on utilise la commande git log
