@@ -1,0 +1,15 @@
+A)
+la commande "git fetch" permet de mettre à jour toutes les références distantes sur le dépôt local sans modifier les références locales; Alors que la commande "git pull" fait la même chose que la commande "git fetch", mais en plus, elle merge la branche courante avec sa référence distante.
+
+B)
+Pour annuler les modifications locales non validées dans GIT:
+Il faut rechercher l'ID de la révision que vous souhaitez afficher. 
+Cet exemple part du principe que vous développez sur la branche ( main ) par défaut. 
+Une fois que vous êtes revenu dans la branche ( main ), vous pouvez utiliser "git revert" ou "git reset" pour annuler les changements indésirables.
+
+C)
+La suppression d'une branche distante dans GIT nécessite l'utilisation de la "git push" commande à l'aide de l'option "--delete" .
+
+D)
+La manière la plus simple de consulter l'historique des modificationspour un fichier spécifique Git est d'utiliser la commande "git log". 
+Cette commande affiche la liste des commits réalisés du plus récent au plus ancien.
